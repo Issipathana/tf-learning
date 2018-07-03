@@ -1,3 +1,6 @@
 [submodule "tf-workshops"]
 	path = tf-workshops
 	url = https://github.com/grisaitis/tf-workshops
+[submodule "tf-models"]
+	path = tf-models
+	url = https://github.com/tensorflow/models
