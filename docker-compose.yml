@@ -9,3 +9,5 @@ services:
     command: start-notebook.sh --NotebookApp.token=''
     ports:
       - "8888:8888"
+    environment:
+      - SHELL=/bin/bash
