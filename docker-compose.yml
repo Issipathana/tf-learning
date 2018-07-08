@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+  tf-runtime:
+    image: jupyter/datascience-notebook
+    volumes:
+      - type: bind
+        source: .
+        target: /home/jovyan/tf-learning
+    command: start-notebook.sh --NotebookApp.token=''
+    ports:
+      - "8888:8888"
